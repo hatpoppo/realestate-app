@@ -32,12 +32,17 @@ VITE_SUPABASE_PUBLISHABLE_KEY=<Supabase Publishable Key>
 
 ### ページ構成
 
-| パス | ファイル | 説明 |
-|------|----------|------|
-| `/login` | `src/pages/Login.jsx` | メール＋パスワードでログイン |
-| `/register` | `src/pages/Register.jsx` | 会員登録（メール確認あり） |
+| パス          | ファイル                   | 説明                                 |
+| ------------- | -------------------------- | ------------------------------------ |
+| `/login`      | `src/pages/Login.jsx`      | メール＋パスワードでログイン         |
+| `/register`   | `src/pages/Register.jsx`   | 会員登録（メール確認あり）           |
 | `/properties` | `src/pages/Properties.jsx` | 物件一覧（ダミーデータ）＋ログアウト |
 
 ### スタイル
 
 グローバル CSS のみ（`src/index.css`）。コンポーネントライブラリ・CSS Modules は未使用。
+
+## デプロイ情報
+
+- 本番URL：https://realestate-app-liard.vercel.app
+- Supabaseプロジェクト名：realestate-app
